@@ -2,26 +2,33 @@
 <html>
 <head>
     <title>Personal Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="another.css">
-    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:ital, wght@0,100;0 ,200;0,300;0,400;0,500; 0,600;0,700;1,100;1,200;1,3008;1,400;1,500; 1,600;1,700&displa y=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="jquery.js"></script>
 </head>
 <body>
-    <div class="syren">
-        <nav>
-            <h2 class="logo">Syren <span>Soul</span></h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#dump">My Dump</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-            <a href="https://instagram.com/syahid.ashblfkrrr" class="btn">Follow</a>
-        </nav>
-
-        <div class="content">
+    <section class="syren"></div>
+        <header>
+            <div class="logo">Syren <span>Soul</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#dump">My Dump</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <a href="https://instagram.com/syahid.ashblfkrrr" class="btn">Follow</a>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <div id="home" class="content">
             <h4>Hello, my name is</h4>
             <h1>Syahid Asha<span>bul Fikri</span></h1>
             <h3>Sometimes I think that I'm a prodigy</h3>
@@ -33,47 +40,71 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="main">
-            <img src="syahid.jpeg">
+            <img src="syahid.jpeg" alt="Syren Soul">
             <div class="about-text">
                 <h2>About Me</h2>
                 <h1>Just an <span>introduction</span></h1>
                 <p>Hello, my name is Syahid Ashabul Fikri. You can call me Syahid or Fikri, whichever you want.
                     <br>I was born on 1st March 2004, now I'am 19 years old.
+                    <br>I'm excited about the opportunities that lie ahead in my career, and I can't wait to see where this journey takes me!
                 </p>
                 <a href="https://www.facebook.com/Syahid.ashblfkrrr" class="btn">Let's be friends</a>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="dump">
-
+    <section id="dump" class="dump">
+        <div class="heading">
+            <h1>My <span>Dump<sup>⊚</sup></span></h1>
+        </div>
+        <div class="box">
+            <div class="gallery">
+                <img src="dump_1.jpeg" alt="Syren's dump">
+                <img src="dump_2.jpeg" alt="Syren's dump">
+                <img src="dump_3.jpeg" alt="Syren's dump">
+            </div>
+            <div class="gallery">
+                <img src="dump_4.jpeg" alt="Syren's dump">
+                <img src="dump_5.jpeg" alt="Syren's dump">
+                <img src="dump_6.jpeg" alt="Syren's dump">
+            </div>
+            <div class="gallery">
+                <img src="dump_7.jpeg" alt="Syren's dump">
+                <img src="dump_8.jpeg" alt="Syren's dump">
+                <img src="dump_9.jpeg" alt="Syren's dump">
+            </div>
+        </div>
+        <div class="button">
+            <a href="https://pin.it/71zhuef">See More</a>
         </div>
     </section>
 
-    <div class="contact-me">
-        <p>Let know about me</p>
-
-    </div>
+    <section id="contact" class="contact-me">
+        <h2>Contact <span>Me!</span></h2>
+        <div class="card">
+            <p>Need some talk? Or just wanna know more information about me?
+                <br>Just contact me!
+            </p>
+            <div class="email">
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>Syahid Ashabul Fikri</p>
         <p>For more information about me</p>
         <div class="social">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com/SyrenSoul"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/syahidashabulfikri3380"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://discord.com/@syrensoul#6553"><i class="fa-brands fa-discord"></i></a>
         </div>
         <p class="end">CopyRight By Syahid ashabul Fikri</p>
     </footer>
     <script src="apa.js"></script>
 </body>
-
-
-
 </html>
